@@ -1,0 +1,19 @@
+
+
+
+.app {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.todo-list-main {
+  width: 100%; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.05);
+}

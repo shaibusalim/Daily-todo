@@ -1,0 +1,61 @@
+
+.app-container {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+.dark-mode .list-todo-card .todo-li li{
+    color: white;
+}
+.dark-mode .filter-todo-main{
+    border: none;
+}
+.dark-mode .filter-todo-main .filter-todo-container h4{
+    color: white;
+}
+.dark-mode .list-todo-card .todo-buttons label{
+    color: white;
+}
+.dark-mode .add-todo-main .add-todo-container{
+    background-color:  #333333 ;
+}
+.dark-mode .add-todo-main .add-todo-container .add-todo-card input{
+    background-color:  #333333 ;
+    color: white;
+}
+
+
+
+
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.dark-mode button {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.dark-mode button:hover {
+    background-color: #444444;
+}
